@@ -1,0 +1,63 @@
+* { 
+box-sizing: border-box;
+}
+
+body {
+  background: #40434E;
+}
+
+.name-tag {
+font-family: sans-serif;
+  background: #912F40;
+  width: 450px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+  box-shadow: 5px 10px 18px #080705;
+}
+
+.name-tag-title {
+  color: #FFFFFA;
+  text-align: center;
+padding:10px 0;
+}
+
+.name-tag h1,
+.name-tag h2 {
+  margin: 0;
+}
+
+.name-tag-name {
+  background: #FFFFFA;
+ padding: 10px;
+  margin: 0px;
+   text-align:center;
+  font-size:50px;
+font-family: 'Covered By Your Grace', cursive;
+  height: 100px;
+  color: navy;
+  
+  
+}
+
+.name-tag-footer {
+  padding: 24px;
+  background: #912F40;
+  border-radius: 25px;
+}
+
+form  {
+  padding-top: 33px;
+  text-align:center;
+}
+
+input#name  {
+      border: #40434E 1px solid;
+    border-radius: 25px;
+  text-align:center;
+  font-size:24px;
+  padding: 4px 0;
+    box-shadow: inset 0 0 3px #912F40;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
